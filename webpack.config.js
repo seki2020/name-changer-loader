@@ -8,11 +8,11 @@ module.exports = {
     },
     module: {
         rules: [
-            { 
-                test: /\.js$/i, 
-                use:[
-                    path.resolve(__dirname,'./loader/async-replace.js'),
-                    path.resolve(__dirname,'./loader/replace.js')
+            {
+                test: /\.js$/i,
+                use: [
+                    path.resolve(__dirname, './loader/async-replace.js'),
+                    path.resolve(__dirname, './loader/replace.js')
                 ]
             }
         ]
